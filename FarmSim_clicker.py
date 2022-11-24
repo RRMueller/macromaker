@@ -155,14 +155,14 @@ while True:
             while True:
                 keyboard.send(repeatedKey1)
                 time.sleep(sleepTime1)
-                if keyboard.is_pressed(stopRepeatingKeyA) and keyboard.is_pressed(stopRepeatingKeyA):
+                if keyboard.is_pressed(stopRepeatingKeyA) and keyboard.is_pressed(stopRepeatingKeyB):
                   break
             print("-----------------------------------")
         if keyboard.is_pressed(startRepeatingKey2A) and keyboard.is_pressed(startRepeatingKey2B):
             while True:
                 keyboard.send(repeatedKey2)
                 time.sleep(sleepTime2)
-                if keyboard.is_pressed(stopRepeatingKeyA) and keyboard.is_pressed(stopRepeatingKeyA):
+                if keyboard.is_pressed(stopRepeatingKeyA) and keyboard.is_pressed(stopRepeatingKeyB):
                   break
 #             print("-----------------------------------")
 
